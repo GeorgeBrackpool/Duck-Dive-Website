@@ -1,0 +1,48 @@
+body{
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)), url("images/DuckDiveGameOverBackground.png") no-repeat center center fixed;
+  background-size: cover;
+  background-position-y: -3.5rem;
+  position: relative;
+
+}
+.app-badge-custom{
+  max-width: 70%;
+  height: auto;
+  position:relative;
+  right: 2rem;
+}
+.header-title-1{
+  font-family: Dimbo;
+  font-size: 12rem;
+  color: #00B411;
+  letter-spacing: .5rem;
+}
+.header-title-2{
+  color: #0180c5;
+  letter-spacing: .5rem;
+}
+.header-paragraph{
+  font-size: 2rem;
+  color: white;
+}
+@font-face { font-family: Dimbo; src: url('Dimbo Regular.ttf'); } 
+#main-content{
+  font-family:Dimbo;
+}
+#privacy-policy-body{
+    background-image: url("images/DuckDiveMainGraphic.png");
+    background-repeat:repeat;
+    background-size: 80%;
+}
+.privacy-terms-container{
+  text-align: left;
+    padding: 2em;
+    background: black !important;
+    background-size: contain;
+    background-repeat:no-repeat round;
+    color: white;
+}
+.privacy-terms-container h2{
+  color: white;
+}
